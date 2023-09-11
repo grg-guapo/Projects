@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-spartan: Spartan;
+
+  /* font sizes */
+  --font-size-4xl: 23px;
+  --font-size-6xl: 25px;
+  --font-size-45xl: 64px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-tomato: #e44d26;
+
+  /* Border radiuses */
+  --br-12xs: 1px;
+  --br-13xl: 32px;
+}

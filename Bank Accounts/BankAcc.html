@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BankAcc.css">
+    <script src="BankAcc.js" defer></script>
+    <script src="BankAccPassword.js" defer></script>
+    <title>&#127974; Welcome to Oxenfurt Building Society!</title>
+</head>
+
+<body>
+
+    <div id="mainContainer">
+        <h1>Open your new account with us and gain access to our Award Winning Services.</h1>
+        
+        <div id="container">
+            <div id="fill">
+
+                <h3>enter your details</h3>
+
+                <form>
+                <label for="fullName" id="fullName" class="list">Full Name:</label>
+                <input type="text" name="fullName" onblur="fullName">
+
+                <label for="date" id="dob" class="list">Date of Birth:</label>
+                <input type="date" name="dob" onblur="dob">
+
+                <label for="email" id="email" class="list">Email:</label>
+                <input type="email" name="email" onblur="email">
+
+                <label for="mobNo" id="mobNo" class="list">Contact No:</label>
+                <input type="number" name="mobNo" onblur="mobNo">
+
+                <input class="list" type="text" id="password" placeholder="password length 10" hidden>
+
+                <input class="btn" id="btn1" type="submit" value="Sign Up">
+
+                <input class="btn" id="btn2" type="reset">
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
